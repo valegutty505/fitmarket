@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Newsreader:ital,opsz,wght@0,6..72,200;0,6..72,300;0,6..72,400;0,6..72,500;0,6..72,600;0,6..72,700;0,6..72,800;1,6..72,200;1,6..72,300;1,6..72,400;1,6..72,500;1,6..72,600;1,6..72,700;1,6..72,800&display=swap");
+.main-form-title {
+  font-family: "Newsreader", serif;
+  font-weight: bold;
+  font-size: 4rem;
+  color: #F9FFF8;
+}
+
+.form-page-background {
+  background-color: #77967B;
+  min-height: 100vh;
+  height: fit-content;
+  max-height: 200%;
+  width: 100%;
+  font-family: "Inter", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.header-form {
+  height: 20vh;
+  background-color: #AFD2B3;
+  margin-top: 1.5rem;
+  border-radius: 20px;
+}
+
+.form-card {
+  width: 40vw;
+  height: 35vh;
+  background-color: #F9FFF8;
+  color: #77967B;
+  border-radius: 20px;
+  font-weight: bold;
+  font-family: "Inter", sans-serif;
+  margin: 3rem;
+}
+
+.form-card-text {
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+.form-accept-button {
+  font-size: 3rem;
+  font-weight: bold;
+  background-color: #E3FFDC;
+  width: 40vw;
+  height: 10vh;
+  color: #77967B;
+  text-align: center;
+  border-radius: 20px;
+  margin: 10px;
+  transition: background-color 0.3s ease, color 0.3s ease, border 0.3s ease;
+  cursor: pointer;
+}
+.form-accept-button:hover {
+  background-color: #AFD2B3;
+  color: #F9FFF8;
+}
+
+/*# sourceMappingURL=styles.css.map */
